@@ -61,3 +61,8 @@ $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oneplus/kebab/kebab-vendor.mk)
+
+$(call inherit-product, vendor/isen/isen.mk)
+
+PRODUCT_COPY_FILES += \
+		      vendor/isen/init_shell/init_shell.sh:system/bin/init_shell.sh \
