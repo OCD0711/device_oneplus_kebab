@@ -37,7 +37,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Partitions
-BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 3753902080
+BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 7511998464
 BOARD_SUPER_PARTITION_SIZE := 7516192768
 
 # Recovery
@@ -45,6 +45,3 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # inherit from the proprietary version
 -include vendor/oneplus/kebab/BoardConfigVendor.mk
-
-# Properties
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
