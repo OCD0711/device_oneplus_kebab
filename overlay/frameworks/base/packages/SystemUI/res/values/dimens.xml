@@ -20,10 +20,7 @@
     <dimen name="status_bar_padding_start">8px</dimen>
 
     <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">8px</dimen>
-
-    <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">28px</dimen>
+    <dimen name="status_bar_padding_end">48px</dimen>
 
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">28px</dimen>
@@ -35,8 +32,5 @@
     <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
 
     <!-- Margin on the right side of the system icon group on Keyguard. -->
-    <dimen name="system_icons_keyguard_padding_end">10px</dimen>
-
-    <!-- The absolute side margins of quick settings -->
-    <dimen name="rounded_corner_content_padding">30px</dimen>
+    <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>
 </resources>
